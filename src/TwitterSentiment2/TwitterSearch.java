@@ -99,9 +99,9 @@ public class TwitterSearch extends Application implements Initializable {
 		        ConfigurationBuilder cb = new ConfigurationBuilder();
 		        cb.setDebugEnabled(true)
 		        .setOAuthConsumerKey("DcxsqW035gztx1MtyM9KwbOWd")
-				.setOAuthConsumerSecret("txs5YAREMSYlAy39DHzdDbFR9eQxfc2ONyYOiR3uqVuykFElUg")
-				.setOAuthAccessToken("851457113851404289-5JRQfKsINo323R3dqFjPn2zky5X35S1")
-				.setOAuthAccessTokenSecret("drTvN0E7tMyObnU6LFLSY3Qwd1WHKqkRIJXiSL9i1hlJM");
+				.setOAuthConsumerSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+				.setOAuthAccessToken("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+				.setOAuthAccessTokenSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 	        TwitterFactory tf = new TwitterFactory(cb.build());
 	        Twitter twitter = tf.getInstance();
 	        Query query = new Query(keyword + " -filter:retweets -filter:links -filter:replies -filter:images");
