@@ -84,10 +84,10 @@ public class SentimentsResource extends Application implements Initializable
  //========================twitter 4j connection==================================================================================================
         ConfigurationBuilder cb = new ConfigurationBuilder(); 
         cb.setDebugEnabled(true)
-        .setOAuthConsumerKey("DcxsqW035gztx1MtyM9KwbOWd")
-		.setOAuthConsumerSecret("txs5YAREMSYlAy39DHzdDbFR9eQxfc2ONyYOiR3uqVuykFElUg")
-		.setOAuthAccessToken("851457113851404289-5JRQfKsINo323R3dqFjPn2zky5X35S1")
-		.setOAuthAccessTokenSecret("drTvN0E7tMyObnU6LFLSY3Qwd1WHKqkRIJXiSL9i1hlJM");
+        .setOAuthConsumerKey("XXXXXXXXXXXXXXXXXXXXXXX")
+		.setOAuthConsumerSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+		.setOAuthAccessToken("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+		.setOAuthAccessTokenSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 	    TwitterFactory tf = new TwitterFactory(cb.build());
 	    Twitter twitter = tf.getInstance();
 	    for (String keyword : keywords)
