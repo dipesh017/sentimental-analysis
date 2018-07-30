@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modmain.MainPage">
+   <children>
+      <ImageView fitHeight="239.0" fitWidth="1155.0" layoutX="45.0" layoutY="279.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Screenshot%20(399).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="105.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get in touch with our team at  ">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#ff0505" layoutX="347.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+91-7055554256">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="502.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or email us at ">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#ff0505" layoutX="636.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ccvtspiker@gmail.com">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Automate your business processes and  increase your efficiency with our custom  Software  products.  Be it an  workflow software, we have  the  experience and expertise to deliver.  If you are doing it using excel files or a piece of paper, we can automate the process to increase your efficiency and reduce your costs." wrappingWidth="1007.0">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="71.0" fitWidth="1200.0" layoutY="579.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Screenshot%20(400).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="409.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CCVT SPIKERS Advantage of Software Product Development">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="516.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CCVT SPIKER SOFTWARE " wrappingWidth="248.77538537979126">
+         <font>
+            <Font name="Bookman Old Style Bold" size="17.0" />
+         </font>
+      </Text>
+      <Button layoutX="1034.0" layoutY="14.0" mnemonicParsing="false" onAction="#developer2" prefHeight="10.0" prefWidth="152.0" text="Back to Login Page">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

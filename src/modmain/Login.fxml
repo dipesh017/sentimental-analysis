@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modmain.MainPage">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="1200.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/web4.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e3e3e368" height="221.0" layoutX="431.0" layoutY="225.0" stroke="#f5f8fb" strokeType="INSIDE" width="430.0" />
+      <Text layoutX="460.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="Bookman Old Style Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="460.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Bookman Old Style Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="username" layoutX="600.0" layoutY="248.0" prefHeight="28.0" prefWidth="233.0" promptText="Enter Username">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="610.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#dologin" prefHeight="21.0" prefWidth="86.0" style="-fx-background-color: #b12020;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <PasswordField fx:id="password" layoutX="600.0" layoutY="291.0" prefHeight="28.0" prefWidth="233.0" promptText="Enter Password">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="box21" layoutX="430.0" layoutY="225.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="430.0" style="-fx-background-color: #000000;" text="Twitter Sentimental Analysis" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="26.0" />
+         </font>
+      </Button>
+      <Button id="box2" fx:id="box22" layoutX="430.0" layoutY="278.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="430.0" style="-fx-background-color: #a41d1d;" text="tEAM CCVT SPIKER" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="Felix Titling" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="box23" layoutX="430.0" layoutY="306.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="430.0" style="-fx-background-color: #a41d1d;" text="                                                                      DIPESH GARG" textFill="WHITE">
+         <font>
+            <Font name="Felix Titling" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="box24" layoutX="430.0" layoutY="334.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="430.0" style="-fx-background-color: #a41d1d;" text="                                                                       ETQAD KHAN" textFill="WHITE">
+         <font>
+            <Font name="Felix Titling" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="box25" layoutX="430.0" layoutY="362.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="430.0" style="-fx-background-color: #a41d1d;" text="                                                                     RAISE AZAM" textFill="WHITE">
+         <font>
+            <Font name="Felix Titling" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="box26" layoutX="430.0" layoutY="390.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="430.0" style="-fx-background-color: #a41d1d;" text="AND OUR GREAT MENTOR" textFill="WHITE">
+         <font>
+            <Font name="Felix Titling" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="box27" layoutX="430.0" layoutY="418.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="430.0" style="-fx-background-color: #a41d1d;" text="                                                                            DR.RAJEEV TIWARI" textFill="WHITE">
+         <font>
+            <Font name="Felix Titling" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="box211" layoutX="624.0" layoutY="470.0" mnemonicParsing="false" onMouseClicked="#slidemain" prefHeight="14.0" prefWidth="93.0" style="-fx-background-color: #000000;" text="Enter" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutY="625.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="360.0" style="-fx-background-color: #000000;" text="© All rights reserved 2018" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="355.0" layoutY="625.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="430.0" style="-fx-background-color: #000000;" text="Designed &amp; Developed by CCVT SPIKER Software Pvt. Ltd." textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="754.0" layoutY="625.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="446.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="973.0" layoutY="625.0" mnemonicParsing="false" onAction="#developer" prefHeight="25.0" prefWidth="154.0" text="Know More About us">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="1113.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="73.0" text="Close">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

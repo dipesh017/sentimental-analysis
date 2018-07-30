@@ -1,0 +1,33 @@
+@relation Tweet
+
+@attribute class {'pos','neg'}
+@attribute Tweet {'Watching a nice movie','The painting is ugly, will return it tomorrow...','One of the best soccer games, worth seeing it','Very tasty, not only for vegetarians','Super party!','Too early to travel..need a coffee','Damn..the train is late again...','Bad news, my flight just got cancelled.','Happy birthday mr. president','Just watch it. Respect.','Wonderful sunset.','Bravo, first title in 2014!','Had a bad evening, need urgently a beer.','I put on weight again','On today\'s show we met Angela, a woman with an amazing story','I fell in love again','I lost my keys','On a trip to Iceland','Happy in Berlin','I hate Mondays','Love the new book I reveived for Christmas','He killed our good mood','I am in good spirits again','This guy creates the most awesome pics ever','The dark side of a selfie.','Cool! John is back!'}
+
+@data
+'pos','Watching a nice movie'
+'neg','The painting is ugly, will return it tomorrow...'
+'pos','One of the best soccer games, worth seeing it'
+'pos','Very tasty, not only for vegetarians'
+'pos','Super party!'
+'neg','Too early to travel..need a coffee'
+'neg','Damn..the train is late again...'
+'neg','Bad news, my flight just got cancelled.'
+'pos','Happy birthday mr. president'
+'pos','Just watch it. Respect.'
+'pos','Wonderful sunset.'
+'pos','Bravo, first title in 2014!'
+'neg','Had a bad evening, need urgently a beer.'
+'neg','I put on weight again'
+'pos','On today\'s show we met Angela, a woman with an amazing story'
+'pos','I fell in love again'
+'neg','I lost my keys'
+'pos','On a trip to Iceland'
+'pos','Happy in Berlin'
+'neg','I hate Mondays'
+'pos','Love the new book I reveived for Christmas'
+'neg','He killed our good mood'
+'pos','I am in good spirits again'
+'pos','This guy creates the most awesome pics ever'
+'neg','The dark side of a selfie.'
+'pos','Cool! John is back!'
+
